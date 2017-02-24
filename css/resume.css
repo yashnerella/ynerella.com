@@ -1,0 +1,343 @@
+/*html { 
+  background: url(../images/background12.jpg) no-repeat center center fixed; 
+  background: url(../images/background13.jpg) no-repeat center center fixed;
+  background: url(../images/background14.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Courier New", Courier, monospace;
+}*/
+/*.w3-animate-fading{-webkit-animation:fading 10s infinite;animation:fading 10s infinite}
+@-webkit-keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}*/
+
+.background1{
+   background: url(../images/background12.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Courier New", Courier, monospace;
+  -webkit-animation:fading 10s infinite;
+  animation:fading 10s infinite;
+  @-webkit-keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+}
+
+.background2{
+   background: url(../images/background13.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.background3{
+   background: url(../images/background14.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Courier New", Courier, monospace;
+}
+
+
+.welcome-message{
+	color: #fefefe;
+}
+
+.prof-pic{
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+}
+
+.skill-logo{
+	height: 80px;
+	width: 80px;
+}
+
+.linebreak{
+	margin: 25px 0;
+    height: 1px;
+    background: white;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(black), to(black), color-stop(50%, white));
+}
+
+.prof-box{
+    width: 480px;
+    height: 500px;
+    background: rgba(0,0,0,0.5);
+    padding: 40px;
+    color: #fefefe;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    float: left;
+}
+
+.prof-box h1{
+	font-weight: 100;
+	letter-spacing: 4;
+	font-size: 30px;
+}
+
+.prof-box h5{
+	font-weight: normal;
+}
+
+.prof-box p{
+	font-weight: 200;
+	letter-spacing: 1;
+}
+
+
+
+.semi-transparent-button {
+  display: block;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 8px;
+  width: 80%;
+  max-width: 200px;
+  background: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-out;
+  display: inline-block;
+  font-family: "Century Gothic", sans-serif;
+}
+
+.semi-transparent-button:hover,
+.semi-transparent-button:focus,
+.semi-transparent-button:active {
+  background: #fff;
+  color: #000;
+  transition: all 0.5s ease-in;
+}
+
+.resume-sections{
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.section-container{
+	width: 480px;
+    height: 900px;
+    background: rgba(0,0,0,0.5);
+    padding: 40px;
+    color: #fefefe;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    float: right;
+}
+
+#ss, #exps, #edus, #hs {
+	height: 720px;
+	width: 450px;
+	border-radius: 8px;
+	position: absolute;
+	display: none;
+}
+
+#hs{
+	width: 250px;
+}
+
+#edus {
+	width: 460px;
+}
+
+
+.skills-section-content, .experience-section-content, .education-section-content, .honors-section-content{
+	height: 710x;
+	font-family: "Century Gothic", sans-serif;
+}
+
+.hide{
+	display: none;
+}
+
+.progress-container {
+	width:90%;
+	height:1em;
+	position:relative;
+	background: rgba(255,255,255,0);
+	margin-top: 2px;
+}
+
+.progressbar {
+	background-color:#757575;
+	height:100%;
+	position:absolute;
+	line-height:inherit;
+	width: 10%;
+}
+
+.skill-bars {
+	float: right;
+	height: 700px;
+	width: 200px;
+}
+
+.skill-names {
+	float: left;
+	width: 100px;
+	height: 700px;
+}
+
+.skill-names label {
+	margin-bottom: 50px;
+}
+
+
+.skill-logos {
+	float: left;
+	width:100px;
+	height: 700px;
+}
+
+
+.skill-status {
+	display:none;
+	position:absolute;
+	border:1px solid #333;
+	background-color:#161616;
+	border-radius:5px;
+	padding:10px;
+	color:#fff;
+	font-size:12px Arial;
+}
+
+.w3-round,.w3-round-medium {
+	border-radius:6px!important
+}
+
+.w3-center {
+	text-align:center!important
+}
+
+.social a {
+   text-decoration:none;
+   color: inherit;
+}
+
+
+ .watermark1 {
+  width: 450px;
+  height: 350px;
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.watermark2 {
+  width: 450px;
+  height: 350px;
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+#gitam-content, #gitam-logo {
+	 position: absolute;
+	  
+}
+
+#gitam-logo {
+	left: 150px;
+	bottom: 70px;
+	opacity: 0.3;
+	
+}
+
+#gitam-content {
+	left: 100px;
+	display: none;
+}
+
+#uou-content, #uou-logo {
+	 position: absolute;
+	 
+}
+
+#uou-logo {
+	bottom: 70px;
+	right: 80px;
+	opacity: 0.3;
+	
+}
+
+#uou-content {
+	left: 100px;
+	display: none;
+}
+
+/*Colors*/
+
+.amber,.hover-amber:hover{color:#000!important;background-color:#ffc107!important}
+.aqua,.hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
+.blue,.hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
+.light-blue,.hover-light-blue:hover{color:#000!important;background-color:#87CEEB!important}
+.brown,.hover-brown:hover{color:#fff!important;background-color:#795548!important}
+.cyan,.hover-cyan:hover{color:#000!important;background-color:#00bcd4!important}
+.blue-grey,.hover-blue-grey:hover,.blue-gray,.hover-blue-gray:hover{color:#fff!important;background-color:#607d8b!important}
+.green,.hover-green:hover{color:#fff!important;background-color:#4CAF50!important}
+.light-green,.hover-light-green:hover{color:#000!important;background-color:#8bc34a!important}
+.indigo,.hover-indigo:hover{color:#fff!important;background-color:#3f51b5!important}
+.khaki,.hover-khaki:hover{color:#000!important;background-color:#f0e68c!important}
+.lime,.hover-lime:hover{color:#000!important;background-color:#cddc39!important}
+.orange,.hover-orange:hover{color:#000!important;background-color:#ff9800!important}
+.deep-orange,.hover-deep-orange:hover{color:#fff!important;background-color:#ff5722!important}
+.pink,.hover-pink:hover{color:#fff!important;background-color:#e91e63!important}
+.purple,.hover-purple:hover{color:#fff!important;background-color:#9c27b0!important}
+.deep-purple,.hover-deep-purple:hover{color:#fff!important;background-color:#673ab7!important}
+.red,.hover-red:hover{color:#fff!important;background-color:#f44336!important}
+.sand,.hover-sand:hover{color:#000!important;background-color:#fdf5e6!important}
+.teal,.hover-teal:hover{color:#fff!important;background-color:#009688!important}
+.yellow,.hover-yellow:hover{color:#000!important;background-color:#ffeb3b!important}
+.white,.hover-white:hover{color:#000!important;background-color:#fff!important}
+.black,.hover-black:hover{color:#fff!important;background-color:#000!important}
+
+
+.w3-text-amber,.w3-hover-text-amber:hover{color:#ffc107!important}
+.w3-text-aqua,.w3-hover-text-aqua:hover{color:#00ffff!important}
+.w3-text-blue,.w3-hover-text-blue:hover{color:#2196F3!important}
+.w3-text-light-blue,.w3-hover-text-light-blue:hover{color:#87CEEB!important}
+.w3-text-brown,.w3-hover-text-brown:hover{color:#795548!important}
+.w3-text-cyan,.w3-hover-text-cyan:hover{color:#00bcd4!important}
+.w3-text-blue-grey,.w3-hover-text-blue-grey:hover,.w3-text-blue-gray,.w3-hover-text-blue-gray:hover{color:#607d8b!important}
+.w3-text-green,.w3-hover-text-green:hover{color:#4CAF50!important}
+.w3-text-light-green,.w3-hover-text-light-green:hover{color:#8bc34a!important}
+.w3-text-indigo,.w3-hover-text-indigo:hover{color:#3f51b5!important}
+.w3-text-khaki,.w3-hover-text-khaki:hover{color:#b4aa50!important}
+.w3-text-lime,.w3-hover-text-lime:hover{color:#cddc39!important}
+.w3-text-orange,.w3-hover-text-orange:hover{color:#ff9800!important}
+.w3-text-deep-orange,.w3-hover-text-deep-orange:hover{color:#ff5722!important}
+.w3-text-pink,.w3-hover-text-pink:hover{color:#e91e63!important}
+.w3-text-purple,.w3-hover-text-purple:hover{color:#9c27b0!important}
+.w3-text-deep-purple,.w3-hover-text-deep-purple:hover{color:#673ab7!important}
+.w3-text-red,.w3-hover-text-red:hover{color:#f44336!important}
+.w3-text-sand,.w3-hover-text-sand:hover{color:#fdf5e6!important}
+.w3-text-teal,.w3-hover-text-teal:hover{color:#009688!important}
+.w3-text-yellow,.w3-hover-text-yellow:hover{color:#d2be0e!important}
+.w3-text-white,.w3-hover-text-white:hover{color:#fff!important}
+.w3-text-black,.w3-hover-text-black:hover{color:#000!important}
+.w3-text-grey,.w3-hover-text-grey:hover,.w3-text-gray,.w3-hover-text-gray:hover{color:#757575!important}
+.w3-text-light-grey,.w3-hover-text-light-grey:hover,.w3-text-light-gray,.w3-hover-text-light-gray:hover{color:#f1f1f1!important}
+.w3-text-dark-grey,.w3-hover-text-dark-grey:hover,.w3-text-dark-gray,.w3-hover-text-dark-gray:hover{color:#3a3a3a!important}
